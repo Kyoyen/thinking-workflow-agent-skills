@@ -59,7 +59,7 @@ Preflight should actively route to a more suitable capability when the problem h
 | Several known options must become one original solution | `fusion` | Needs lawful synthesis, tradeoffs, and a coherent new route |
 | The same problem must be traced across goals, actors, systems, and actions | `scale` | Needs a workable boundary before solution design |
 | Academic literature or a systematic review | A scholarly research workflow | Needs reproducible search, methods, citations, and bias handling |
-| Competitor or market analysis | A competitor-research workflow | Needs structured evidence rather than a list of famous names |
+| Competitor or market analysis | A competitor-research workflow | Needs structured evidence grounded in the actual options |
 | Current technical best practice for a chosen stack | Official documentation and a version-aware technical workflow | Needs current primary sources |
 | Product requirements or implementation | The relevant product, design, architecture, or engineering workflow | The direction is clear enough to leave preflight |
 | A non-trivial plan or handoff is still ambiguous | A requirements interrogation or review workflow | Goals, acceptance, boundaries, alternatives, and assumptions need pressure-testing |

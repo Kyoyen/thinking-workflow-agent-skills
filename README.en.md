@@ -1,45 +1,81 @@
 # Thinking Workflow Agent Skills
 
-[中文](README.md) · [Agent Skills standard](https://agentskills.io/)
+<p>
+  <a href="README.md">中文</a> ·
+  <a href="https://agentskills.io/">Agent Skills standard</a>
+</p>
 
-Five Agent Skills that turn a personal way of thinking into an executable workflow:
+<p align="center">
+  <img src="docs/assets/thinking-workflow-hero.svg" width="100%" alt="Thinking Workflow Agent Skills: a five-stage route across personal experience, organizational practice, and personal action">
+</p>
 
-1. `preflight` — look outward for precedents before building.
-2. `scale` — move outward, inward, and sideways until a workable boundary appears.
-3. `fusion` — absorb useful ideas and form an original, coherent solution.
-4. `postflight` — verify completion, recovery, maintenance, and handoff.
-5. `retro-insights` — turn repeated experience into the next testable improvement.
+I come from the humanities and social sciences, previously taught history, and now work at the frontier of FDE. I am glad to share these Skills with people exploring Vibe Coding, learning how AI workflows operate, or organizing complex work through a structuralist lens.
 
-These skills began as tools for my own work across research, product, operations, writing, engineering, tool governance, and organizational change. They are not dedicated to one industry. Use them independently or as a cycle.
+The collection turns my personal thinking habits into five executable Agent Skills: look outward, scale the problem, absorb and reorganize useful ideas, verify completion with evidence, and let reflection change the next action.
+
+## A wide route
+
+The method grows from personal experience, enters organizational and enterprise settings where relationships become more complex, and returns to personal judgment, choice, and action. The five-stage analysis provides a stable backbone. Each Skill also offers an independent entry point.
+
+| 01 · Personal origin | 02 · Organizational practice | 03 · Personal return |
+|---|---|---|
+| Experience, questions, values, and working habits become the source of method. | Collaboration, process, authority, systems, and shared goals test the method across a wider network. | Evidence, counterexamples, and reflection return to personal practice and change the next choice. |
+
+The route supports research, product, operations, writing, engineering, tool governance, organizational change, and everyday decisions.
+
+## Five-stage analysis
 
 ```mermaid
 flowchart LR
-    A["Preflight"] --> B["Scale"]
-    B --> C["Fusion"]
+    A["Preflight<br/>Look outward"] --> B["Scale<br/>Trace relations"]
+    B --> C["Fusion<br/>Form a new whole"]
     C --> D["Execute & verify"]
-    D --> E["Postflight"]
-    E --> F["Retro Insights"]
+    D --> E["Postflight<br/>Accept & sustain"]
+    E --> F["Retro Insights<br/>Reflect across cycles"]
     F -. "validated change" .-> A
 ```
 
-## Why this repository exists
+| Skill | Core question | Working boundary |
+|---|---|---|
+| [`preflight`](skills/preflight/) | What already exists, what is useful, and what should be discarded? | Find precedents, choose a route, sharpen the next move |
+| [`scale`](skills/scale/) | How far outward, inward, and sideways must this problem be seen before action? | Trace relations and choose a temporary working boundary |
+| [`fusion`](skills/fusion/) | How can several useful directions become one coherent solution? | Digest differences, make tradeoffs, reorganize the whole |
+| [`postflight`](skills/postflight/) | Is the result complete, recoverable, maintainable, and transferable? | Compare promises with evidence and preserve what matters |
+| [`retro-insights`](skills/retro-insights/) | Which repeated patterns deserve a place in the next cycle? | Find repetition and propose testable change |
 
-I am sharing a transferable way of thinking, not the internal answers of any company or project.
+## Philosophical foundations
 
-- Make tacit personal judgment legible and repeatable for an Agent.
-- Make the reasoning behind a decision easier for collaborators to inspect.
-- Explore how a viewpoint becomes boundaries, steps, stop conditions, and acceptance evidence instead of a long prompt.
+<p align="center">
+  <img src="docs/assets/philosophy-route-bar.svg" width="100%" alt="Positivism, structuralism, existentialism, and the route from personal experience through organizational practice back to personal action">
+</p>
+
+### Positivism
+
+Observable facts, reviewable material, and practical results ground judgment. `preflight` examines real precedents, `postflight` requires completion evidence, and `retro-insights` looks for repetition across tasks. Every conclusion remains open to new evidence.
+
+### Structuralism
+
+Meaning emerges through relations, positions, differences, constraints, and feedback. `scale` moves outward, inward, and sideways around one concern. `fusion` reorganizes several sources within one goal structure. Boundaries serve the current decision and remain revisable.
+
+### Existentialism
+
+People act from concrete situations and take responsibility through choice. A Skill provides structures for observation and judgment; the actor still chooses and acts. The cycle returns to the individual: understand the situation, choose, take responsibility, and let experience shape the next action.
+
+| Philosophical line | Workflow expression | Main carriers |
+|---|---|---|
+| Positivism | Evidence, results, and reviewability constrain judgment | `preflight`, `postflight`, `retro-insights` |
+| Structuralism | Relations, boundaries, and whole structures explain the problem | `scale`, `fusion` |
+| Existentialism | Situated choice, action, responsibility, and personal return | Execution, `postflight`, `retro-insights` |
+
+## Why open source
+
+This repository makes a personal way of thinking readable, usable, and discussable:
+
+- Turn tacit judgment into working contracts an Agent can execute.
+- Keep reasoning, boundaries, and completion evidence visible to collaborators.
+- Explore how a viewpoint becomes triggers, steps, stop conditions, and acceptance structures.
+- Observe how personal methods enter collaborative systems and return through organizational learning.
 - Exchange practical methods with people working on internal transformation in established enterprises.
-
-Enterprise transformation is an important sharing direction for this repository, but it does not define the scope of the five skills.
-
-The public edition has been sanitized. It contains no company, client, project, location, internal system, account, local path, production log, or identifiable business case. All scenarios are synthetic composites.
-
-## Personal position
-
-The outside world comes before internal imagination. Boundaries are temporary hypotheses for a decision. Innovation is not accumulation; it is coherent recombination after understanding and subtraction. Completion requires evidence, recovery, and handoff. Experience becomes learning only when it changes the next action.
-
-For established enterprises specifically, I do not see them as obsolete objects waiting to be “fixed” by technology. They contain hard-won experience, relationships, and constraints, as well as genuine inertia and cost. Transformation should understand before it chooses, validate locally before it scales, and avoid worshipping either the past or new technology.
 
 ## Install
 
@@ -61,14 +97,14 @@ Restart or refresh your Agent Skills client after installation.
 
 ## Typical uses
 
-- Start an unfamiliar research or product question without reinventing the wheel.
+- Start an unfamiliar research or product question with relevant precedents.
 - Untangle a problem that keeps expanding or fragmenting.
 - Turn several useful options into one original route.
 - Close code, research, documents, automation, or projects with evidence.
-- Review repeated human–Agent work without mistaking activity metrics for value.
+- Review repeated human–Agent work through results, friction, and correction.
 - Apply the full cycle from an idea to a sustainable working method.
 
-See the Chinese README for the full philosophy, catalog, boundaries, and sanitized scenarios.
+See the Chinese README for detailed scenarios and usage boundaries.
 
 ## Contributing and contact
 

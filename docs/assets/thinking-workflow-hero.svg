@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+  <title id="title">Thinking Workflow Agent Skills</title>
+  <desc id="desc">A geometric editorial banner showing five workflow stages and a route from personal experience through organizational practice back to personal action.</desc>
+  <rect width="1600" height="420" fill="#181A1B"/>
+  <rect x="0" y="0" width="18" height="420" fill="#D84A3A"/>
+  <rect x="18" y="0" width="7" height="420" fill="#E5B93C"/>
+
+  <g font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="70" y="72" fill="#E5B93C" font-size="22" font-weight="700" letter-spacing="4">PERSONAL PRACTICE · OPEN METHOD</text>
+    <text x="70" y="160" fill="#F7F3E8" font-size="76" font-weight="760" letter-spacing="-2">THINKING WORKFLOW</text>
+    <text x="72" y="210" fill="#B9B7B0" font-size="25" font-weight="500">Five Agent Skills for evidence, structure, choice, delivery, and reflection.</text>
+
+    <g transform="translate(1125 42)">
+      <circle cx="76" cy="76" r="72" fill="#D84A3A"/>
+      <text x="76" y="84" fill="#181A1B" font-size="22" font-weight="800" text-anchor="middle" letter-spacing="1">EVIDENCE</text>
+      <rect x="164" y="4" width="148" height="144" fill="#2456D8"/>
+      <text x="238" y="84" fill="#F7F3E8" font-size="20" font-weight="800" text-anchor="middle" letter-spacing="0.5">STRUCTURE</text>
+      <path d="M328 148 L400 4 L472 148 Z" fill="#E5B93C"/>
+      <text x="400" y="118" fill="#181A1B" font-size="22" font-weight="800" text-anchor="middle" letter-spacing="1">CHOICE</text>
+    </g>
+
+    <g transform="translate(70 278)">
+      <g>
+        <rect width="276" height="82" fill="#F7F3E8"/>
+        <rect width="276" height="8" fill="#D84A3A"/>
+        <text x="18" y="38" fill="#181A1B" font-size="18" font-weight="800" letter-spacing="1.5">01 · PREFLIGHT</text>
+        <text x="18" y="64" fill="#55534E" font-size="16">Look outward</text>
+      </g>
+      <g transform="translate(294)">
+        <rect width="276" height="82" fill="#F7F3E8"/>
+        <rect width="276" height="8" fill="#2456D8"/>
+        <text x="18" y="38" fill="#181A1B" font-size="18" font-weight="800" letter-spacing="1.5">02 · SCALE</text>
+        <text x="18" y="64" fill="#55534E" font-size="16">Trace relations</text>
+      </g>
+      <g transform="translate(588)">
+        <rect width="276" height="82" fill="#F7F3E8"/>
+        <rect width="276" height="8" fill="#E5B93C"/>
+        <text x="18" y="38" fill="#181A1B" font-size="18" font-weight="800" letter-spacing="1.5">03 · FUSION</text>
+        <text x="18" y="64" fill="#55534E" font-size="16">Form a new whole</text>
+      </g>
+      <g transform="translate(882)">
+        <rect width="276" height="82" fill="#F7F3E8"/>
+        <rect width="276" height="8" fill="#D84A3A"/>
+        <text x="18" y="38" fill="#181A1B" font-size="18" font-weight="800" letter-spacing="1.5">04 · POSTFLIGHT</text>
+        <text x="18" y="64" fill="#55534E" font-size="16">Verify completion</text>
+      </g>
+      <g transform="translate(1176)">
+        <rect width="276" height="82" fill="#F7F3E8"/>
+        <rect width="276" height="8" fill="#2456D8"/>
+        <text x="18" y="38" fill="#181A1B" font-size="18" font-weight="800" letter-spacing="1.5">05 · RETRO</text>
+        <text x="18" y="64" fill="#55534E" font-size="16">Change the next action</text>
+      </g>
+    </g>
+
+    <text x="70" y="400" fill="#77756F" font-size="15" letter-spacing="2">PERSONAL EXPERIENCE → ORGANIZATIONAL PRACTICE → PERSONAL ACTION ↺</text>
+  </g>
+</svg>

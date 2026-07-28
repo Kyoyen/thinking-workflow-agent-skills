@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 300" role="img" aria-labelledby="title desc">
+  <title id="title">Three philosophical anchors</title>
+  <desc id="desc">Positivism, structuralism, and existentialism support a wide route from personal experience through organizational practice back to personal action.</desc>
+  <rect width="1600" height="300" fill="#F5F0E6"/>
+
+  <g font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+    <g transform="translate(45 34)">
+      <rect width="480" height="164" fill="#FFFDF7" stroke="#1B1B1B" stroke-width="3"/>
+      <rect width="480" height="12" fill="#D84A3A"/>
+      <text x="24" y="58" fill="#8D251F" font-size="18" font-weight="800" letter-spacing="3">01 · POSITIVISM</text>
+      <text x="24" y="103" fill="#1B1B1B" font-size="34" font-weight="780">实证主义</text>
+      <text x="24" y="140" fill="#5D5850" font-size="19">观察 · 证据 · 验证</text>
+    </g>
+
+    <g transform="translate(560 34)">
+      <rect width="480" height="164" fill="#FFFDF7" stroke="#1B1B1B" stroke-width="3"/>
+      <rect width="480" height="12" fill="#2456D8"/>
+      <text x="24" y="58" fill="#173C9B" font-size="18" font-weight="800" letter-spacing="3">02 · STRUCTURALISM</text>
+      <text x="24" y="103" fill="#1B1B1B" font-size="34" font-weight="780">结构主义</text>
+      <text x="24" y="140" fill="#5D5850" font-size="19">关系 · 位置 · 边界</text>
+    </g>
+
+    <g transform="translate(1075 34)">
+      <rect width="480" height="164" fill="#FFFDF7" stroke="#1B1B1B" stroke-width="3"/>
+      <rect width="480" height="12" fill="#E5B93C"/>
+      <text x="24" y="58" fill="#7A5A00" font-size="18" font-weight="800" letter-spacing="3">03 · EXISTENTIALISM</text>
+      <text x="24" y="103" fill="#1B1B1B" font-size="34" font-weight="780">存在主义</text>
+      <text x="24" y="140" fill="#5D5850" font-size="19">处境 · 选择 · 责任</text>
+    </g>
+
+    <g transform="translate(45 230)">
+      <rect width="1510" height="36" fill="#1B1B1B"/>
+      <text x="28" y="25" fill="#F5F0E6" font-size="16" font-weight="700" letter-spacing="2">生于个人体验</text>
+      <line x1="235" y1="18" x2="625" y2="18" stroke="#D84A3A" stroke-width="4"/>
+      <polygon points="625,10 641,18 625,26" fill="#D84A3A"/>
+      <text x="675" y="25" fill="#F5F0E6" font-size="16" font-weight="700" letter-spacing="2">进入组织实践</text>
+      <line x1="880" y1="18" x2="1218" y2="18" stroke="#2456D8" stroke-width="4"/>
+      <polygon points="1218,10 1234,18 1218,26" fill="#2456D8"/>
+      <text x="1264" y="25" fill="#F5F0E6" font-size="16" font-weight="700" letter-spacing="2">回落个人行动 ↺</text>
+    </g>
+  </g>
+</svg>
