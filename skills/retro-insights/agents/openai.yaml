@@ -1,0 +1,4 @@
+interface:
+  display_name: "Retro Insights"
+  short_description: "Turn repeated work into testable improvements"
+  default_prompt: "Use $retro-insights to review repeated work patterns, separate evidence from inference, and propose at most three improvements that can be verified next cycle."

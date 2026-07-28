@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scale"
+  short_description: "Trace relations and choose a workable boundary"
+  default_prompt: "Use $scale to trace this problem outward, inward, and sideways, then choose the smallest boundary that preserves the relationships needed for action and acceptance."

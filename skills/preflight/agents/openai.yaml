@@ -1,0 +1,4 @@
+interface:
+  display_name: "Preflight"
+  short_description: "Avoid closed-door building"
+  default_prompt: "Use $preflight to prevent self-indulgent closed-door building: check predecessors, alternatives, prior art, concepts, specialist routes, and what to borrow or avoid before deciding whether to build, adapt, integrate, wrap, route, or defer."

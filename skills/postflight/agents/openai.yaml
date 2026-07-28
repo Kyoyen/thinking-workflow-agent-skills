@@ -1,0 +1,4 @@
+interface:
+  display_name: "Postflight"
+  short_description: "Verify completion, recovery, and maintenance"
+  default_prompt: "Use $postflight to verify this deliverable against its acceptance criteria, identify unverified claims and recovery paths, and leave one minimal next action."

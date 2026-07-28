@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fusion"
+  short_description: "Synthesize precedents into an original solution"
+  default_prompt: "Use $fusion to absorb the lawful, useful principles from these options and form one coherent solution for the current goal without copying protected expression or private material."
