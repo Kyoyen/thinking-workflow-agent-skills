@@ -23,6 +23,17 @@
 
 这条路由容纳研究、产品、运营、写作、工程、工具治理、组织转型与日常个人决策。实际任务可以从任一段进入，再按需要连接其他阶段。
 
+## 选择语言版本
+
+仓库提供两套完整版本。每一套都包含五个 Skill、界面元数据、参考资料和辅助脚本；两套版本保持相同的方法、阶段边界与调用名。
+
+| 版本 | 入口 | 适合 |
+|---|---|---|
+| 中文版 | [`editions/zh-CN/skills/`](editions/zh-CN/skills/) | 希望 Agent 的说明、模板与脚本输出使用中文 |
+| 英文版 | [`editions/en/skills/`](editions/en/skills/) | 希望 Agent 的说明、模板与脚本输出使用英文 |
+
+请选择一套安装。两套版本使用相同的 Skill 名称，同时安装会产生同名覆盖或发现冲突。
+
 ## 五段式分析
 
 ```mermaid
@@ -35,13 +46,13 @@ flowchart LR
     F -. "经证据验证的改变" .-> A
 ```
 
-| Skill | 核心问题 | 工作边界 |
-|---|---|---|
-| [`preflight`](skills/preflight/) | 别人做过什么？什么值得借，什么应当舍弃？ | 找前例、判断路线、明确下一步 |
-| [`scale`](skills/scale/) | 同一问题要向外、向内和横向看到哪里，才能行动？ | 追踪关系、选择临时工作边界 |
-| [`fusion`](skills/fusion/) | 如何吸收多个方向的精华，形成自洽的新解法？ | 消化差异、完成取舍、重组方案 |
-| [`postflight`](skills/postflight/) | 结果真的完成了吗？能否恢复、维护和交接？ | 对照承诺、核验证据、安排长久化 |
-| [`retro-insights`](skills/retro-insights/) | 多次任务后，哪些模式值得进入下一周期？ | 识别重复模式、提出可验证改变 |
+| Skill | 中文版 | 英文版 | 核心问题 |
+|---|---|---|---|
+| `preflight` | [打开](editions/zh-CN/skills/preflight/) | [打开](editions/en/skills/preflight/) | 别人做过什么？什么值得借，什么应当舍弃？ |
+| `scale` | [打开](editions/zh-CN/skills/scale/) | [打开](editions/en/skills/scale/) | 同一问题要向外、向内和横向看到哪里，才能行动？ |
+| `fusion` | [打开](editions/zh-CN/skills/fusion/) | [打开](editions/en/skills/fusion/) | 如何吸收多个方向的精华，形成自洽的新解法？ |
+| `postflight` | [打开](editions/zh-CN/skills/postflight/) | [打开](editions/en/skills/postflight/) | 结果真的完成了吗？能否恢复、维护和交接？ |
+| `retro-insights` | [打开](editions/zh-CN/skills/retro-insights/) | [打开](editions/en/skills/retro-insights/) | 多次任务后，哪些模式值得进入下一周期？ |
 
 ## 哲学支撑
 
@@ -79,21 +90,21 @@ flowchart LR
 
 ## 快速安装
 
-### 方式一：使用 Skills CLI
-
-```bash
-npx skills add Kyoyen/thinking-workflow-agent-skills
-```
-
-### 方式二：手动安装
+先克隆仓库，再复制其中一套：
 
 ```bash
 git clone https://github.com/Kyoyen/thinking-workflow-agent-skills.git
 mkdir -p ~/.agents/skills
-cp -R thinking-workflow-agent-skills/skills/* ~/.agents/skills/
+cp -R thinking-workflow-agent-skills/editions/zh-CN/skills/* ~/.agents/skills/
 ```
 
-也可以只复制某一个 Skill 目录。安装后重新启动或刷新支持 Agent Skills 的客户端。
+英文版将最后一行替换为：
+
+```bash
+cp -R thinking-workflow-agent-skills/editions/en/skills/* ~/.agents/skills/
+```
+
+也可以只复制一个 Skill 目录，例如中文版 `editions/zh-CN/skills/preflight/`。安装后重新启动或刷新支持 Agent Skills 的客户端。
 
 每个目录都遵循 `SKILL.md` 约定；`references/` 按需加载，`scripts/` 承担适合确定性执行的辅助操作。
 
@@ -120,7 +131,7 @@ cp -R thinking-workflow-agent-skills/skills/* ~/.agents/skills/
 
 ### 示例三：给一项工作真正收尾
 
-`postflight` 可以用于代码、文档、调研、设计或自动化：逐项核对承诺、证据、未验证项、回滚、Owner 和下一步。只有实际打开、运行或回读过的结果才标记为完成。
+`postflight` 可以用于代码、文档、调研、设计或自动化：逐项核对承诺、证据、未验证项、回滚、负责人和下一步。只有实际打开、运行或回读过的结果才标记为完成。
 
 ### 示例四：复盘个人与 Agent 的长期协作
 
@@ -145,12 +156,15 @@ cp -R thinking-workflow-agent-skills/skills/* ~/.agents/skills/
 ```text
 .
 ├── docs/assets/
-├── skills/
-│   ├── preflight/
-│   ├── scale/
-│   ├── fusion/
-│   ├── postflight/
-│   └── retro-insights/
+├── editions/
+│   ├── zh-CN/skills/
+│   │   ├── preflight/
+│   │   ├── scale/
+│   │   ├── fusion/
+│   │   ├── postflight/
+│   │   └── retro-insights/
+│   └── en/skills/
+│       └── 与中文版保持相同的五个目录
 ├── examples/
 ├── CONTRIBUTING.md
 ├── PRIVACY.md

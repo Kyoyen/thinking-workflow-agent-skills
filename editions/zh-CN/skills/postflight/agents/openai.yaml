@@ -1,0 +1,4 @@
+interface:
+  display_name: "Postflight"
+  short_description: "用证据完成验收、恢复、维护与交接"
+  default_prompt: "使用 $postflight 对照承诺与证据完成验收，并检查恢复、维护和交接。"

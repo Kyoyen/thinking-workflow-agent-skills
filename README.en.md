@@ -23,6 +23,17 @@ The method grows from personal experience, enters organizational and enterprise 
 
 The route supports research, product, operations, writing, engineering, tool governance, organizational change, and everyday decisions.
 
+## Choose an edition
+
+The repository provides two complete editions. Each contains all five Skills, interface metadata, references, and supporting scripts. They share the same method, stage boundaries, and invocation names.
+
+| Edition | Entry point | Best for |
+|---|---|---|
+| English | [`editions/en/skills/`](editions/en/skills/) | English instructions, templates, and script output |
+| Chinese | [`editions/zh-CN/skills/`](editions/zh-CN/skills/) | Chinese instructions, templates, and script output |
+
+Install one edition. Both editions intentionally use the same Skill names, so installing both creates duplicate-name discovery or overwrite conflicts.
+
 ## Five-stage analysis
 
 ```mermaid
@@ -35,13 +46,13 @@ flowchart LR
     F -. "validated change" .-> A
 ```
 
-| Skill | Core question | Working boundary |
-|---|---|---|
-| [`preflight`](skills/preflight/) | What already exists, what is useful, and what should be discarded? | Find precedents, choose a route, sharpen the next move |
-| [`scale`](skills/scale/) | How far outward, inward, and sideways must this problem be seen before action? | Trace relations and choose a temporary working boundary |
-| [`fusion`](skills/fusion/) | How can several useful directions become one coherent solution? | Digest differences, make tradeoffs, reorganize the whole |
-| [`postflight`](skills/postflight/) | Is the result complete, recoverable, maintainable, and transferable? | Compare promises with evidence and preserve what matters |
-| [`retro-insights`](skills/retro-insights/) | Which repeated patterns deserve a place in the next cycle? | Find repetition and propose testable change |
+| Skill | English | Chinese | Core question |
+|---|---|---|---|
+| `preflight` | [Open](editions/en/skills/preflight/) | [Open](editions/zh-CN/skills/preflight/) | What already exists, what is useful, and what should be discarded? |
+| `scale` | [Open](editions/en/skills/scale/) | [Open](editions/zh-CN/skills/scale/) | How far outward, inward, and sideways must this problem be seen before action? |
+| `fusion` | [Open](editions/en/skills/fusion/) | [Open](editions/zh-CN/skills/fusion/) | How can several useful directions become one coherent solution? |
+| `postflight` | [Open](editions/en/skills/postflight/) | [Open](editions/zh-CN/skills/postflight/) | Is the result complete, recoverable, maintainable, and transferable? |
+| `retro-insights` | [Open](editions/en/skills/retro-insights/) | [Open](editions/zh-CN/skills/retro-insights/) | Which repeated patterns deserve a place in the next cycle? |
 
 ## Philosophical foundations
 
@@ -79,21 +90,21 @@ This repository makes a personal way of thinking readable, usable, and discussab
 
 ## Install
 
-With a compatible Skills CLI:
-
-```bash
-npx skills add Kyoyen/thinking-workflow-agent-skills
-```
-
-Or install manually:
+Clone the repository, then copy one edition:
 
 ```bash
 git clone https://github.com/Kyoyen/thinking-workflow-agent-skills.git
 mkdir -p ~/.agents/skills
-cp -R thinking-workflow-agent-skills/skills/* ~/.agents/skills/
+cp -R thinking-workflow-agent-skills/editions/en/skills/* ~/.agents/skills/
 ```
 
-Restart or refresh your Agent Skills client after installation.
+For the Chinese edition, replace the final line with:
+
+```bash
+cp -R thinking-workflow-agent-skills/editions/zh-CN/skills/* ~/.agents/skills/
+```
+
+You may also copy one Skill directory, such as `editions/en/skills/preflight/`. Restart or refresh your Agent Skills client after installation.
 
 ## Typical uses
 

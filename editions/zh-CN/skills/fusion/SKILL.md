@@ -1,6 +1,6 @@
 ---
 name: fusion
-description: 用于把多个相似方向的项目、产品、工具、仓库、工作流、设计方向、商业策略或解决方式中的核心有用理念，融合进当前要解决的问题和方案里，产出整体化、一致化、可信化的自有方案。Use when the user asks to compare and fuse options, take useful thinking from multiple references, learn from public examples without copying, compare GitHub skill repos, synthesize product/design/strategy routes, or turn competing references into an original plan. Must not copy proprietary expression, code, text, visual identity, assets, private material, confidential information, trade secrets, or license-restricted implementation; only extract lawful public ideas, principles, patterns, tradeoffs, and personal inspiration.
+description: 把多个相似方向的项目、产品、工具、仓库、工作流、设计方向、商业策略或解决方式中的核心理念，融合进当前问题，形成整体化、一致化、可信化的自有方案。用于比较并融合多个选项、吸收公开案例中的有用思想、比较公开 Skill 仓库、综合产品与设计及策略路线，或把相互竞争的参考方向重组为原创计划。只提取合法公开的理念、原则、模式、取舍和个人启发，避开专有表达、代码、文本、视觉身份、资产、私有材料、机密信息、商业秘密和受许可证限制的实现。
 ---
 
 # Fusion

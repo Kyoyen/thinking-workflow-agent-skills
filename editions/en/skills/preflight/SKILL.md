@@ -1,6 +1,6 @@
 ---
 name: preflight
-description: Broad pre-task preflight and routing gateway to prevent self-indulgent, closed-door building. Use before planning or implementation when the task may benefit from checking predecessors, comparable products, open-source libraries, platform features, standards, concepts, business analogies, academic work, competitor examples, or prior local precedents. Triggers include "preflight", "先查一下", "有没有同类", "别闭门造车", "站在前人肩膀上", "已有方案", "竞品", "对标", "prior art", "existing solutions", "similar tools", "market landscape", "what already exists", and vague feature or strategy ideas that need broad grounding before action.
+description: Broad pre-task preflight and routing gateway to prevent self-indulgent, closed-door building. Use before planning or implementation when the task may benefit from checking predecessors, comparable products, open-source libraries, platform features, standards, concepts, business analogies, academic work, competitor examples, or prior local precedents. Triggers include preflight, prior art, existing solutions, similar tools, market landscape, what already exists, avoid reinventing the wheel, and vague feature or strategy ideas that need broad grounding before action.
 ---
 
 # Preflight
@@ -30,7 +30,7 @@ Irreplaceable boundary: preflight only finds precedents, judges routes, and shar
 - The user asks for competitors, alternatives, prior art, existing solutions, open-source options, platform-native features, concepts, analogies, or benchmarks.
 - A task is vague enough that terminology and precedents would change the plan.
 - Implementation could take meaningful time and a short check could avoid duplicate work.
-- The user explicitly wants to avoid "自嗨", "闭门造车", or "重新发明轮子".
+- The user explicitly wants to avoid closed-door thinking or reinventing the wheel.
 
 ## Do Not Use When
 

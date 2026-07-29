@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fusion"
+  short_description: "消化多个方向并形成自洽的新方案"
+  default_prompt: "使用 $fusion 提取多个方向的精华、完成取舍，并形成自己的整体方案。"

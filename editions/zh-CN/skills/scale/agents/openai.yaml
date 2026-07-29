@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scale"
+  short_description: "沿关系缩放问题并选择可行动边界"
+  default_prompt: "使用 $scale 沿目标、关系、约束与行动缩放问题，选择当前工作边界。"

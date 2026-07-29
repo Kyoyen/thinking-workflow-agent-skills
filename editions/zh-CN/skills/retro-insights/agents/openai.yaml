@@ -1,0 +1,4 @@
+interface:
+  display_name: "Retro Insights"
+  short_description: "从跨周期证据中提炼可验证的改进"
+  default_prompt: "使用 $retro-insights 回顾多个任务中的重复模式，并提出下一周期可验证的改变。"

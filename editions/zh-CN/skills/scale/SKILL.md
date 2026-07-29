@@ -1,6 +1,6 @@
 ---
 name: scale
-description: Trace one problem across scales by zooming outward, inward, and sideways through goals, relations, causes, constraints, feedback, and action. Use after preflight and before solution design to find a workable boundary, preserve cross-cutting relations, decide how deeply to decompose, determine whether governance or agent coordination is justified, and route the next specialist skills. Trigger on scale, scope, macro-to-micro reasoning, decomposition, management depth, task allocation, cross-functional work, system boundaries, or “这个问题到底有多大”.
+description: 沿目标、关系、原因、约束、反馈和行动，对同一问题向外、向内与横向缩放。用于开工前扫描之后、方案设计之前，选择可行动边界，保留横向联系，决定拆解深度，判断是否需要协调结构，并路由后续专业能力。触发场景包括范围判断、宏观与微观推理、任务拆解、管理深度、任务分配、跨职能工作、系统边界，以及“这个问题到底有多大”。
 ---
 
 # Scale

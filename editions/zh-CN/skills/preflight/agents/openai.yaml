@@ -1,0 +1,4 @@
+interface:
+  display_name: "Preflight"
+  short_description: "行动前检查前例、现成能力与最简路径"
+  default_prompt: "使用 $preflight 在行动前检查前例、可复用能力和最小下一步。"
